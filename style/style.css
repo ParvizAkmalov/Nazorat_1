@@ -290,10 +290,10 @@ input[type = "checkbox"]{
     .MediaLiUlMenu{
         display: block;
         width: 30%;
-        height: 60%;
+        height: 25%;
         border: 1px solid #fff;
         position: fixed;
-        top: 30%;
+        top: 10%;
         right: -100%;
         background-color: #221d32;
         display: flex;
@@ -1948,6 +1948,61 @@ input[type = "checkbox"]{
 .section4rightImg1{
     width: 640px;
 }
+@media screen and (max-width:545px){
+    .section4{
+        width: 100%;
+        height: 600px;
+        background-color: #30298C;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-image: url('./img/Vector\ \(3\).png');
+        background-repeat: no-repeat;
+        background-position: 50px -140px;
+        padding: 20px 0 0 0;
+    }
+    .section4left{
+        width: 44%;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .section4leftH1{
+        font-size: 30px;
+        color: white;
+    }
+    .section4leftP1{
+        font-size: 20px;
+        color: #ACA9D1;
+    }
+    .section4leftButton{
+        font-size: 13px;
+        padding: 15px 30px;
+        border-radius: 10px;
+        background-color: red;
+        color: white;
+        border: 1px solid transparent;
+        cursor: pointer;
+    }
+    .section4leftButton:hover{
+        background-color: rgb(255, 115, 0);
+    }
+    
+    .section4right{
+        width: 45%;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .section4rightImg1{
+        width: 400px;
+    }
+}
 /* section 4 oxiri */
 
 
@@ -2128,6 +2183,185 @@ input[type = "checkbox"]{
 .secton5BirinchiDiv1ichiDiv2Li1{
     cursor: pointer;
 }
+@media screen and (max-width:545px){
+    .section5{
+        width: 100%;
+        height: 1650px;
+        background-color: #101932;
+    }
+    .secton5soz1{
+        width: 100%;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .section5soz1H11{
+        color: white;
+        font-family: sans-serif;
+        font-size: 30px;
+    }
+    
+    .secton5Birinchi{
+        width: 100%;
+        height: 250px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0 0 0 0;
+    }
+    .secton5BirinchiDiv1{
+        width: 400px;
+        height: 160px;
+        border: 2px solid #34405c;
+        background-color: #1b2848;
+        border-radius: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    .secton5BirinchiDiv1ichiDiv1{
+        width: 80px;
+        height: 80px;
+        border-radius: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #243760;
+    }
+    .secton5BirinchiDiv1ichiDiv1H11{
+        color: #8F95A4;
+        font-family: sans-serif;
+        font-size: 30px;
+    }
+    .secton5BirinchiDiv1ichiDiv2{
+        width: 300px;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        gap: 5px;
+        flex-direction: column;
+        padding: 0 0 0 10px;
+    }
+    .secton5BirinchiDiv1ichiDiv2H11{
+        font-size: 20px;
+        color: rgb(209, 205, 205);
+        font-family: sans-serif;
+    }
+    .secton5BirinchiDiv1ichiDiv2Li1{
+        color: rgb(209, 205, 205);
+        font-size: 20px;
+        font-family: sans-serif;
+    }
+    
+    
+    .secton5Ikkinchi{
+        width: 100%;
+        height: 300px;
+        padding: 0 0 0 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .secton5IkkinchiDiv1{
+        width: 400px;
+        height: 250px;
+        border: 2px solid #34405c;
+        background-color: #1b2848;
+        border-radius: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        padding: 20px 0 0 0;
+    }
+    .secton5BirinchiDiv1ichiDiv23{
+        width: 300px;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        gap: 10px;
+        flex-direction: column;
+        padding: 0 0 0 20px;
+    }
+    
+    
+    .secton5Uchinci{
+        width: 100%;
+        height: 300px;
+        padding: 0 0 0 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;        
+    }
+    
+    .secton5Tortinchi{
+        width: 100%;
+        height: 300px;
+        padding: 0 0 0 0;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+    }
+    
+    .secton5IkkinchiDiv1ichiDiv24{
+        width: 310px;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        gap: 10px;
+        flex-direction: column;
+        padding: 30px 0 30px 20px;
+    }
+    .secton5IkkinchiDiv2{
+        width: 400px;
+        height: 250px;
+        border: 2px solid #34405c;
+        background-color: #364468;
+        border-radius: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        padding: 20px 0 0 0;
+    }
+    
+    
+    .secton5Beshinchi{
+        width: 100%;
+        height: 320px;
+        padding: 0 0 0 0;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+    }
+    .secton5IkkinchiDiv3{
+        width: 400px;
+        height: 250px;
+        border: 2px solid #34405c;
+        background-color: #364468;
+        border-radius: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        padding: 20px 0 0 0;
+    }
+    .secton5IkkinchiDiv1ichiDiv25{
+        width: 310px;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: start  ;
+        gap: 10px;
+        flex-direction: column;
+        padding: 30px 0 0 20px;
+    }
+    .secton5BirinchiDiv1ichiDiv2Li1{
+        cursor: pointer;
+    }
+}
 /* Section 5 oxiri */
 
 
@@ -2227,6 +2461,114 @@ input[type = "checkbox"]{
     cursor: pointer;
 
 }
+@media screen and (max-width:545px){
+    .section6{
+    width: 100%;
+    height: 2100px;
+    /* border: 1px solid #fff; */
+    background-color: #162344;
+    display: flex;
+    justify-content: center;
+    padding: 0 0 400px 0;
+    align-items: center;
+    gap: 20px;
+    flex-direction: column; 
+}
+.section6Team{
+    width: 100%;
+    height: 1440px;
+    /* border: 1px solid #fa0d0d; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.section6TeamSuzlar{
+    width: 100%;
+    height: 100px;
+    /* border: 1px solid #fff; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section6TeamSuzlarH11{
+    font-size: 40px;
+    color: white;
+    font-family: sans-serif;
+}
+.section6TeamRAsm{
+    width: 100%;
+    height: 1500px;
+    /* border: 1px solid #e98484; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section6TeamRAsm1{
+    width: 300px;
+    height: 300px;
+    /* border: 1px solid #fff; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+/* Rasm */
+.section6TeamRAsm1Img1{
+    width: 200px;
+}
+.section6TeamRAsm1H11{
+    font-size: 30px;
+    color:  white;
+    font-family: sans-serif;
+}
+.section6TeamRAsm1P11{
+    font-size: 20px;
+    color: #A2A7B4;
+}
+
+
+
+.section6Inverstors{
+    width: 100%;
+    height: 230px;
+    /* border: 1px solid #fff; */
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+}
+.section6InverstorsH11{
+    width: 100%;
+    height: 500px;
+    /* border: 1px solid #fff; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section6InverstorsH1{
+    font-size: 47px;
+    color: white;
+    font-family: sans-serif;
+}
+.section6InverstorsImg{
+    width: 100%;
+    height: 150px;
+    /* border: 1px solid #fff; */
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+    flex-direction: column;
+}
+.section6InverstorsImg1{
+    width: 200px;
+    cursor: pointer;
+
+}
+}
 /* section 6 oxiri */
 
 
@@ -2279,6 +2621,55 @@ input[type = "checkbox"]{
     color: white;
     font-family: sans-serif;
 }
+@media screen and (max-width:545px){
+    .Section7{
+        width: 100%;
+        height: 500px;
+        /* border: 1px solid #fff; */
+        background-color: #101932;
+    }
+    .section7TopSoz{
+        width: 100%;
+        height: 130px;
+        /* border: 1px solid #fff; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .section7TopSozH11{
+        font-size: 30px;
+        color: white;
+        font-family: sans-serif;
+    }
+    
+    .Section74tadiv{
+        width: 100%;
+        height: 300px;
+        /* border: 1px solid #fff; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .Section74tadiv1{
+        width: 500px;
+        height: 75px;
+        /* border: 1px solid #fff; */
+        border-radius: 8px;
+        background-color: #384D70;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 20px;
+    }
+    .Section74tadiv1H11{
+        font-size: 15px;
+        color: white;
+        font-family: sans-serif;
+    }
+}
 /* Section 7 oxiri */
 
 
@@ -2322,6 +2713,49 @@ input[type = "checkbox"]{
     justify-content: center;
     align-items: center;
 }
+@media screen and (max-width:545px){
+    .Section8{
+        width: 100%;
+        height: 650px;
+        background-color: #162758;
+    }
+    .section8TopSoz{
+        width: 100%;
+        height: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .section8TopSozH1{
+        font-size: 30px;
+        color: white;
+        font-family: sans-serif;
+    }
+    .section8Center6Rasm{
+        width: 100%;
+        height: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        gap: 16px;
+        padding: 20px 0 0 0;
+        cursor: pointer;
+    }
+    .section8Center6Rasm1{
+        width: 70px;
+    }
+    .section8End1RasmImg{
+        width: 300px;
+    }
+    .section8End1Rasm{
+        width: 100%;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
 /* Section 8 oxiri */
 
 
@@ -2338,4 +2772,19 @@ footer{
     font-size: 20px;
     font-family: sans-serif;
     color:#6E727E ;
+}
+@media screen and (max-width:545px){
+    footer{
+        width: 100%;
+        height: 80px;
+        background-color: #0D1428;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .FooterP{
+        font-size: 15px;
+        font-family: sans-serif;
+        color:#6E727E ;
+    }
 }
